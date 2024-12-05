@@ -91,7 +91,7 @@ struct Productview: View {
     var body: some View {
         ZStack {
             Image(product.image)
-                .frame(width: 100, height: 200)
+                .frame(width: 100, height: 100)
                 
                 .rotationEffect(Angle(degrees: 30))
             ZStack {
